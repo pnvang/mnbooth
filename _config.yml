@@ -21,7 +21,7 @@ people:
       url: #
 
 - name: Phia Vang
-  pic: 2
+  pic: phia
   position: Co-Founder
   social:
     - title: twitter
@@ -32,7 +32,7 @@ people:
       url: #
 
 - name: Nou Vang
-  pic: 3
+  pic: nou
   position: Co-Founder
   social:
     - title: twitter
