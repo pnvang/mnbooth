@@ -3,6 +3,7 @@ baseurl: /mnbooth
 
 # Site settings
 title: MN Booth
+logo: mnbooth_120
 email: info@mnbooth.com
 description: "An affordable event photo booth provider serving Minneapolis and surrounding cities."
 
@@ -13,10 +14,10 @@ people:
   pic: meng
   position: Co-Founder/CEO
   social:
-    - title: instagram
-      url: https://www.instagram.com/meng_hiluss_vang
     - title: facebook
       url: https://www.facebook.com/meng.vang.1238
+    - title: instagram
+      url: https://www.instagram.com/meng_hiluss_vang
 
 - name: Phia Vang
   pic: phia
