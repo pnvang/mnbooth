@@ -3,6 +3,8 @@ baseurl: /
 
 # Site settings
 title: MN Booth
+title_first: MN
+title_second: Booth
 logo: mnbooth_120.png
 email: info@mnbooth.com
 description: "An affordable event photo booth provider serving Minneapolis and surrounding cities."
