@@ -15,6 +15,7 @@ people:
 - name: Meng Vang
   pic: meng
   position: Co-Founder/CEO
+  about: Meng is a long-distance runner with a personal best full marathon time of 4 hours and 34 minutes. Meng is also Founder and CEO of Mengv Photography.
   social:
     - title: facebook
       url: https://www.facebook.com/meng.vang.1238
@@ -24,6 +25,7 @@ people:
 - name: Phia Vang
   pic: phia
   position: Co-Founder
+  about: Phia is a Software Engineer at one of the best company in Minnesota. Phia enjoys daydreaming about what he'll do if he won the Powerball.
   social:
     - title: facebook
       url: https://www.facebook.com/phianvang
@@ -33,13 +35,14 @@ people:
 - name: Nou Vang
   pic: nou
   position: Co-Founder
-  social:
-    - title: twitter
-      url: #
-    - title: facebook
-      url: #
-    - title: google-plus
-      url: #
+  about: Nou enjoys traveling and all things romantic. If Nou ever finds a Genie and had three wishes, it'd be to meet BTS, cure cancer, and free the Genie.
+  # social:
+  #   - title: twitter
+  #     url: #
+  #   - title: facebook
+  #     url: #
+  #   - title: google-plus
+  #     url: #
 
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
