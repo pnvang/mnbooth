@@ -9,31 +9,31 @@ description: "Write an awesome description for your new site here. You can edit 
 
 # Team names, titles and social links
 people:
-- name: Kay Garland
+- name: Meng Vang
   pic: 1
-  position: Lead Designer
+  position: Co-Founder/CEO
   social:
     - title: twitter
       url: #
     - title: facebook
-      url: #
+      url: https://www.facebook.com/meng.vang.1238
     - title: stack-overflow
       url: #
 
-- name: Larry Parker
+- name: Phia Vang
   pic: 2
-  position: Lead Marketer
+  position: Co-Founder
   social:
     - title: twitter
       url: #
     - title: facebook
-      url: #
+      url: https://www.facebook.com/phianvang
     - title: linkedin
       url: #
 
-- name: Diana Petersen
+- name: Nou Vang
   pic: 3
-  position: Lead Developer
+  position: Co-Founder
   social:
     - title: twitter
       url: #
