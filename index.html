@@ -2,19 +2,23 @@
 layout: default
 ---
 
-<div class="home">
 
-  <h1>Posts</h1>
+{% include slider.html %}
 
-  <ul class="posts">
-    {% for post in site.posts %}
-      <li>
-        <span class="post-date">{{ post.date | date: "%b %-d, %Y" }}</span>
-        <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-      </li>
-    {% endfor %}
-  </ul>
+{% include services.html %}
 
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
+{% include portfolios.html %}
 
-</div>
+{% include countdown.html %}
+
+{% include team.html %}
+
+{% include pricing.html %}
+
+{% include blog.html %}
+
+{% include testimonials.html %}
+
+{% include contact.html %}
+
+{% include gallery.html %}

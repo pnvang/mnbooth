@@ -1,58 +1,38 @@
-<!-- Navigation -->
-    <nav class="navbar navbar-default navbar-fixed-top">
-        <div class="container">
-            <!-- Brand and toggle get grouped for better mobile display -->
-            <div class="navbar-header page-scroll">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-                <a class="navbar-brand page-scroll" href="#page-top">{{site.title_first}}<b>{{site.title_second}}</b></a>
+<header class=" {% if page.layout == 'post' %} top-transparent-nav-2 bg_dark {% else %} top-transparent-nav {% endif %}">
+    <div class="container">
+        <div class="row"> 
+            <div class="col-md-3 col-sm-3 col-xs-12">
+                <div class="logo">
+                    <a href="{{site.url}}">
+                        <img src="{{site.logo}}" alt="{{site.title}}">
+                    </a>
+                </div>
             </div>
-
-            <!-- Collect the nav links, forms, and other content for toggling -->
-            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                <ul class="nav navbar-nav navbar-right">
-                    <li class="hidden">
-                        <a href="#page-top"></a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="#services">Services</a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="#portfolio">Portfolio</a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="#packages">Packages</a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="#team">Team</a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="#contact">Contact</a>
-                    </li>
-                </ul>
+            <!-- end logo -->
+            <div class="col-md-9 col-sm-9 col-xs-12">
+                <div class="main-menu">
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                            <span class="sr-only">Toggle navigation</span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                    </div>
+                    <div class="navbar-collapse collapse">
+                        <ul class="nav navbar-nav">
+                            <li class="active"> <a class="smooth-scroll" href="#home">HOME</a></li>
+                            <li> <a class="smooth-scroll" href="{% if page.layout == 'post' %}{{site.url}}/#abt {% else %} #abt {% endif %}">ABOUT</a></li>
+                            <li> <a class="smooth-scroll" href="{% if page.layout == 'post' %}{{site.url}}/#port {% else %} #port {% endif %}">PROTFOLIO</a></li>
+                            <li> <a class="smooth-scroll" href="{% if page.layout == 'post' %}{{site.url}}/#tem {% else %} #tem {% endif %}">TEAM</a></li>
+                            <li> <a class="smooth-scroll" href="{% if page.layout == 'post' %}{{site.url}}/#price {% else %} #price {% endif %}">price</a></li>
+                            <li> <a class="smooth-scroll" href="{% if page.layout == 'post' %}{{site.url}}/#blg {% else %} #blg {% endif %}">blog</a></li>
+                            <li> <a class="smooth-scroll" href="{% if page.layout == 'post' %}{{site.url}}/#con {% else %} #con {% endif %}">CONTACT</a></li>
+                        </ul>
+                    </div>
+                </div>
             </div>
-            <!-- /.navbar-collapse -->
+            <!-- end main menu -->
         </div>
-        <!-- /.container-fluid -->
-    </nav>
-
-    <!-- Header -->
-    <header>
-        <div class="container">
-            <div class="intro-text">
-                <div class="intro-lead-in">Welcome To MN Booth!</div>
-                <div class="intro-heading">It's Nice To Meet You</div>
-                <a href="#services" class="page-scroll btn btn-xl">Tell Me More</a>
-            </div>
-        </div>
-    </header>
-<!--
-        {% for page in site.pages %}
-          {% if page.title %}<a class="page-link" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>{% endif %}
-        {% endfor %}
- -->
-
+    </div>
+</header>

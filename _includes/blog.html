@@ -1,0 +1,38 @@
+
+<div class="photo-love-blog section-pading  my-5" id="blg">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="section-title text-center">
+                    <h2 class="section-heading">NEWS BLOG</h2>
+                </div>
+            </div>
+            <!-- end section title -->
+        </div>
+        <!-- end row -->
+        <div class="row">
+            {% for post in site.posts limit: 3 %}
+            <div class="col-md-4 col-sm-6 col-xs-12 tab-30 stab-30">
+                <div class="single-photo-blog">
+                    <div class="blog-thumb">
+                        <img class="image-fluid" src="{{post.image}}" alt="{{post.title}}">
+                        <div class="blog-date">
+                            <a href="{{post.url}}">{{post.date | date: "%B" }}</a>
+                        </div>
+                    </div>
+                    <div class="blog-text">
+                        <h2><a href="{{post.url}}">{{post.title}}</a></h2>
+                        <p>{{post.excerpt | strip_html | truncate: 150 }}</p>
+                        <div class="blog-footer clearfix">
+                            <div class="pull-left">
+                                <a href="#" class="blog-link">Learn More <i class="fa fa-angle-right"></i></a>
+                            </div>
+                        </div>
+                        <!-- end blog footer -->
+                    </div>
+                </div>
+            </div>
+            {% endfor %}
+        </div>
+    </div>
+</div>
