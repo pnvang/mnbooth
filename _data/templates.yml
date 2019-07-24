@@ -1,6 +1,39 @@
 # Available Categories: wedding graduation birthday party 2x6 4x6
-- file_name: hero_1.png
+- file_name: mnbooth_template_1.png
+  category: party 4x6
+- file_name: mnbooth_template_2.png
+  category: 4x6 birthday
+- file_name: mnbooth_template_3.png
   category: party 2x6
-
-- file_name: palee_final.png
+- file_name: mnbooth_template_4.png
+  category: wedding 2x6
+- file_name: mnbooth_template_5.png
+  category: party 2x6
+- file_name: mnbooth_template_6.png
+  category: party 4x6
+- file_name: mnbooth_template_7.png
+  category: party 4x6
+- file_name: mnbooth_template_8.png
+  category: party 2x6
+- file_name: mnbooth_template_9.png
+  category: party 2x6
+- file_name: mnbooth_template_10.png
+  category: party 4x6
+- file_name: mnbooth_template_11.png
+  category: wedding 2x6
+- file_name: mnbooth_template_12.png
+  category: graduation 4x6
+- file_name: mnbooth_template_13.png
+  category: party 2x6
+- file_name: mnbooth_template_14.png
+  category: party 2x6
+- file_name: mnbooth_template_15.png
+  category: graduation 4x6
+- file_name: mnbooth_template_16.png
+  category: party 2x6
+- file_name: mnbooth_template_17.png
+  category: birthday 2x6
+- file_name: mnbooth_template_18.png
   category: graduation 2x6
+- file_name: mnbooth_template_19.png
+  category: party 4x6
