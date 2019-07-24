@@ -10,6 +10,8 @@ layout: default
                     <div class="post-thumb mb-2">
                         <img src="{{page.image}}" alt="{{page.title}}">
                     </div>
+                    <h4>{{ page.date | date: '%B %d, %Y' }}</h4>
+                    <h2>{{page.title}}</h2>
                     <div class="post-text">
                         {{page.content}}
                     </div>
