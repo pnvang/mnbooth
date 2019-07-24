@@ -1,67 +1,16 @@
 <div class="photolove-gallery-area-2">
     <div class="gallery-active owl-carousel">
-        <div class="single-gallery">
-            <img src="assets/images/gal/g1.jpg" alt="">
-            <div class="gal-overlay">
-                <a class="img-poppu" href="assets/images/gal/g1.jpg">
-                    <i class="flaticon-add"></i>
-                </a>
+
+        {% for gal in site.data.galary %}
+            <div class="single-gallery">
+                <img src="assets/images/gal/{{ gal.file_name }}" alt="">
+                <div class="gal-overlay">
+                    <a class="img-poppu" href="assets/images/gal/{{ gal.file_name }}">
+                        <i class="flaticon-add"></i>
+                    </a>
+                </div>
             </div>
-        </div>
-        <!-- end singel gal -->
-        <div class="single-gallery">
-            <img src="assets/images/gal/gal2.jpg" alt="">
-            <div class="gal-overlay">
-                <a class="img-poppu" href="assets/images/gal/gal2.jpg">
-                    <i class="flaticon-add"></i>
-                </a>
-            </div>
-        </div>
-        <!-- end singel gal -->
-        <div class="single-gallery">
-            <img src="assets/images/gal/gal3.jpg" alt="">
-            <div class="gal-overlay">
-                <a class="img-poppu" href="assets/images/gal/gal2.jpg">
-                    <i class="flaticon-add"></i>
-                </a>
-            </div>
-        </div>
-        <!-- end singel gal -->
-        <div class="single-gallery">
-            <img src="assets/images/gal/gal4.jpg" alt="">
-            <div class="gal-overlay">
-                <a class="img-poppu" href="assets/images/gal/gal5.jpg">
-                    <i class="flaticon-add"></i>
-                </a>
-            </div>
-        </div>
-        <!-- end singel gal -->
-        <div class="single-gallery">
-            <img src="assets/images/gal/gal5.jpg" alt="">
-            <div class="gal-overlay">
-                <a class="img-poppu" href="assets/images/gal/gal5.jpg">
-                    <i class="flaticon-add"></i>
-                </a>
-            </div>
-        </div>
-        <!-- end singel gal -->
-        <div class="single-gallery">
-            <img src="assets/images/gal/g1.jpg" alt="">
-            <div class="gal-overlay">
-                <a class="img-poppu" href="assets/images/gal/g1.jpg">
-                    <i class="flaticon-add"></i>
-                </a>
-            </div>
-        </div>
-        <!-- end singel gal -->
-        <div class="single-gallery">
-            <img src="assets/images/gal/gal2.jpg" alt="">
-            <div class="gal-overlay">
-                <a class="img-poppu" href="assets/images/gal/gal2.jpg">
-                    <i class="flaticon-add"></i>
-                </a>
-            </div>
-        </div>
-        <!-- end singel gal -->
+        {% endfor %}
+
     </div>
 </div>
