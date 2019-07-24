@@ -243,7 +243,7 @@
         $('a.smooth-scroll').on("click", function (e) {
             var anchor = $(this);
             $('html, body').stop().animate({
-                scrollTop: $(anchor.attr('href')).offset().top - 30
+                scrollTop: $(anchor.attr('href')).offset().top - 70
             }, 1000);
             e.preventDefault();
         });
