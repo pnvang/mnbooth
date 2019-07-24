@@ -6,43 +6,33 @@
     Author: mahediamin
     Author URI: https://mahediamin.com
     Version: 1.0
-
 * ----------------------------------------------------------------------------------------
 */
-
-(function ($) {
+(function($) {
     'use strict';
-
-    jQuery(document).on("ready", function () {
-
-
+    jQuery(document).on("ready", function() {
         /*
         ===================================================
         SLIDER ANIMATION
         ===================================================
         */
-        $(".slider-active").on("translate.owl.carousel", function () {
+        $(".slider-active").on("translate.owl.carousel", function() {
             $(".banner-content h3,.banner-content h2").removeClass("animated fadeInUp").css("opacity", "0");
             $(".banner-content p").removeClass("animated flipInX").css("opacity", "0");
             $(".banner-content a.btn-mr-gra").removeClass("animated fadeInUp").css("opacity", "0");
-
         });
-
-        $(".slider-active").on("translated.owl.carousel", function () {
+        $(".slider-active").on("translated.owl.carousel", function() {
             $(".banner-content h3,.banner-content h2").addClass("animated fadeInUp").css("opacity", "1");
             $(".banner-content p").addClass("animated flipInX").css("opacity", "1");
             $(".banner-content a.btn-mr-gra").addClass("animated fadeInUp").css("opacity", "1");
-
         });
-
         /*
         ===================================================
           Filtering Activation
         ===================================================
         */
-
         $('.filter-list').on('click', 'li',
-            function () {
+            function() {
                 $('.filter-list li').removeClass(
                     'active');
                 $(this).addClass('active');
@@ -53,8 +43,6 @@
                 });
                 $(window).trigger('resize');
             });
-
-
         /*
         ===================================================
           OWL CAROSEL ACTIVATION
@@ -94,7 +82,7 @@
         });
         // slider dot convert number
         var dot = $('.slider-active .owl-dot');
-        dot.each(function () {
+        dot.each(function() {
             var index = $(this).index() + 1;
             if (index < 10) {
                 $(this).html('').append(index);
@@ -207,40 +195,29 @@
                 }
             }
         });
-
         /*
         ===================================================
          Scorll up activation
         ===================================================
         */
-
-
         $.scrollUp({
             scrollText: '<i class="fa fa-angle-up"></i>'
-
         });
-
-
         /*
         ===================================================
         Counter Activation
         ===================================================
         */
-
         $('.counter').counterUp({
             delay: 10,
             time: 1000
         });
-
-
-
-
         /*
         ==========================================
         SMOTTH SCROLL
         ==========================================
         */
-        $('a.smooth-scroll').on("click", function (e) {
+        $('a.smooth-scroll').on("click", function(e) {
             var anchor = $(this);
             $('html, body').stop().animate({
                 scrollTop: $(anchor.attr('href')).offset().top - 60
@@ -251,7 +228,6 @@
             target: '.navbar-collapse',
             offset: 195
         });
-
         /*
         ==========================================
         Magnify popup
@@ -265,21 +241,20 @@
             closeOnBgClick: true,
             fixedContentPos: false,
             callbacks: {
-                    open: function() {
+                open: function() {
                     jQuery('body').addClass('noscroll');
                 },
-                    close: function() {
+                close: function() {
                     jQuery('body').removeClass('noscroll');
                 }
             }
         });
-
         /*
         ==========================================
        STICKY MENU
         ==========================================
         */
-        $(window).on('scroll', function () {
+        $(window).on('scroll', function() {
             var scroll = $(window).scrollTop();
             if (scroll < 200) {
                 $(".top-transparent-nav").removeClass("sticky fadeInDown animated");
@@ -292,52 +267,41 @@
         PRICE TABLE HOVER EFFECT
         ==========================================
         */
-        $(".single-pricetable").on('mouseover', function () {
-
+        $(".single-pricetable").on('mouseover', function() {
             $(".single-pricetable").removeClass(
                 "active");
             $(this).addClass("active");
-
         });
-
-
         /*
         ==========================================
         MOBILE MENU
         ==========================================
         */
-        $(".navbar-toggle").on('click', function () {
-
+        $(".navbar-toggle").on('click', function() {
             $("body").addClass(
                 "mobile_menu_mr")
         });
         $(".nav.navbar-nav li a").on('click',
-            function () {
-
+            function() {
                 $(".navbar-collapse ").removeClass(
                     "in")
             });
-
-
-
         /*
         ==========================================
         PRELODER ACTIVATION
         ==========================================
         */
-        jQuery(window).load(function () {
+        jQuery(window).load(function() {
             jQuery(".preloder-rapper").fadeOut(500);
         });
-
         /*
         ==========================================
         MESSONARY ACTIVATION
         ==========================================
         */
-
-        $('.grid').imagesLoaded(function () {
+        $('.grid').imagesLoaded(function() {
             // filter items on button click
-            $('.portfolio-menu').on('click', 'button', function () {
+            $('.portfolio-menu').on('click', 'button', function() {
                 var filterValue = $(this).attr('data-filter');
                 $grid.isotope({
                     filter: filterValue
@@ -353,9 +317,5 @@
                 }
             });
         });
-
-
-
     });
-
 })(jQuery);
