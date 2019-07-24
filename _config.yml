@@ -1,17 +1,11 @@
-title: "Photo Love -  Multipurpose Business & Corporate HTML5 Template"
+title: "MN Booth"
 email: "info@mnbooth.com"
 description: >- # this means to ignore newlines until "baseurl:"
- Photo Love - Multipurpose Business & Corporate HTML5 Template Jekyll Theme For Mobile Apps Download Landing Page And Blogging.
+ MN Booth - An affordable event photo booth provider serving Minneapolis and surrounding cities.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://mnbooth.com" # the base hostname & protocol for your site, e.g. http://example.com # https://addzone-jk.netlify.com
-facebook_url: https://www.facebook.com/jekyll
-twitter_url: https://twitter.com/tryghost
-github_url:  https://github.com/TryGhost/Ghost
-pinterest_url: https://www.pinterest.com/rubel8525
-linkedin_url: https://www.linkenin.com/rubel8525
-instagram_url: https://www.instagram.com/rubel8525
-youtube_url: https://www.youtube.com/rubel8525
-dribbble_url: https://www.dribbble.com/rubel8525
+facebook_url: https://www.facebook.com/mnbooth
+instagram_url: http://instagram.com/mnbooth
 logo: "/assets/images/logo/logo.png"
 logo_2: "/assets/images/logo/logo.png"
 google_form_url: "https://docs.google.com/forms/d/e/1FAIpQLSdCOuPg-FYezeIgNeGk2y5PTDCCXnasWxIWrkpIwszl7KrrPw/viewform?usp=sf_link"

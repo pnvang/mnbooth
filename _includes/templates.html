@@ -1,0 +1,46 @@
+
+<div class="photo-love-portfolio section-pading" id="port">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="section-title text-center">
+                    <h2 class="section-heading">Template Examples</h2>
+                    <div class="filter-menu">
+                        <ul class="filter-list text-center">
+                            <li data-filter="*" class="active btn-mr waves-effect waves-teal  white">All</li>
+                            <li data-filter=".wedding" class="btn-mr waves-effect waves-teal  white">Wedding</li>
+                            <li data-filter=".graduation" class="btn-mr waves-effect waves-teal  white">Graduation</li>
+                            <li data-filter=".birthday" class="btn-mr waves-effect waves-teal  white">Birthday</li>
+                            <li data-filter=".party" class="btn-mr waves-effect waves-teal  white">Party</li>
+                            <li data-filter=".2x6" class="btn-mr waves-effect waves-teal  white">2x6</li>
+                            <li data-filter=".4x6" class="btn-mr waves-effect waves-teal  white">4x6</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <!-- end section title -->
+        </div>
+        <!-- end row -->
+        <div class="row">
+            <div class="grid">
+
+                {% for template in site.data.templates %}
+
+                <div class="col-sm-4 col-xs-12 grid-item {{ template.category }}">
+                    <div class="single-port">
+                        <img src="{{site.baseurl}}/assets/images/templates/{{ template.file_name }}" alt="">
+                        <div class="portfolio-view">
+                            <a class="img-poppu" href="{{site.baseurl}}/assets/images/templates/{{ template.file_name }}">
+                                <i class="flaticon-add"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                {% endfor %}
+
+            </div>
+        </div>
+        <!-- end row -->
+    </div>
+</div>

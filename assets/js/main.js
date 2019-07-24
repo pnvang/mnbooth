@@ -261,6 +261,16 @@
             type: 'image',
             gallery: {
                 enabled: true
+            },
+            closeOnBgClick: true,
+            fixedContentPos: false,
+            callbacks: {
+                    open: function() {
+                    jQuery('body').addClass('noscroll');
+                },
+                    close: function() {
+                    jQuery('body').removeClass('noscroll');
+                }
             }
         });
 

@@ -3,7 +3,7 @@
  * Author: Rubel Hossain
  * Theme URL: https://photolove.netlify.com
  */
- 
+
 /*1.Selfy Reset Css */
 /*1.0 Selfy Preloader Css */
 /*1.1 Selfy Weave Effecs Css */
@@ -102,7 +102,7 @@ a:focus {
 
 /* 0.1 Helper Csss */
 .section-pading {
-  padding: 100px 0; }
+  padding: 20px 0; }
 
 .mtb-30 {
   margin-bottom: 30px; }
@@ -124,7 +124,7 @@ a:focus {
   padding-left: 0; }
 .section-pading-2 {
   padding-top: 100px; }
-  
+
 .bg_dark {
   background-color: #222;
 }
@@ -147,6 +147,7 @@ a:focus {
 .mt-2 {
   margin-top: 2rem;
 }
+.fa-heart { color:red; }
 .btn-mr {
   background: #dd00ff;
   border-radius: 4px;
@@ -240,7 +241,7 @@ a:focus {
 
 .section-title {
   margin-bottom: 60px; }
-  
+
 .section-title p {
   width: 75%;
   margin: 0 auto;
@@ -593,8 +594,8 @@ a:focus {
     /*background-color: #dd00ff;*/
     /*background-image: -webkit-linear-gradient(-390deg, #dd00ff 0%, #dd00ff 40%, #8400ff 61%, #8400ff 100%);*/
     /*background-image: linear-gradient(120deg,#dd00ff 0%, #dd00ff 40%, #8400ff 61%, #8400ff 100%); */
-      
-    background: #000;  
+
+    background: #000;
   }
 
 .banner-table {
@@ -731,8 +732,8 @@ a:focus {
     /*background-color: #dd00ff;*/
     /*background-image: -webkit-linear-gradient(-390deg, #dd00ff 0%, #dd00ff 40%, #8400ff 61%, #8400ff 100%);*/
     /*background-image: linear-gradient(120deg,#dd00ff 0%, #dd00ff 40%, #8400ff 61%, #8400ff 100%); */
-     background: #000; 
-      
+     background: #000;
+
   }
 
 .banner-still.dark:after {
@@ -792,7 +793,7 @@ a:focus {
     /*background-color: #dd00ff;*/
     /*background-image: -webkit-linear-gradient(-390deg, #dd00ff 0%, #dd00ff 40%, #8400ff 61%, #8400ff 100%);*/
     /*background-image: linear-gradient(120deg,#dd00ff 0%, #dd00ff 40%, #8400ff 61%, #8400ff 100%);*/
-    
+
       background: #000;
   }
 
@@ -1112,6 +1113,8 @@ a:focus {
   background-image: linear-gradient(120deg,#dd00ff 0%, #dd00ff 40%, #8400ff 61%, #8400ff 100%); }
 
 .price-body {
+  padding-left: 14px;
+  padding-right: 14px;
   padding-bottom: 20px;
   padding-top: 70px; }
   .price-body ul {
@@ -1154,7 +1157,7 @@ a:focus {
   font-size: 18px;
   margin: 0 0 2px;
   text-transform: uppercase; }
-
+.team-text p { padding: 14px; }
 .team-text span.deginnation {
   font-size: 16px;
   margin: 0 0 15px;
@@ -1242,12 +1245,12 @@ a:focus {
   transition: all 0.34s cubic-bezier(0.47, 0, 0.745, 0.715);
   margin: 0 3px;
   height: 10px;
-  width: 10px;
+  width: 20px;
   border-radius: 10px;
   display: inline-block; }
 
 .team-active .owl-dot.active {
-  width: 30px; }
+  width: 70px; }
 
 /*2.0 STEP HEADER CSS */
 .single-photo-blog {
@@ -1439,12 +1442,16 @@ a:focus {
   transition: all 0.34s cubic-bezier(0.47, 0, 0.745, 0.715);
   margin: 0 3px;
   height: 10px;
-  width: 10px;
+  width: 20px;
   border-radius: 10px;
   display: inline-block; }
 
+body.noscroll {
+  overflow-y: hidden!important;
+}
+
 .testimonials-active .owl-dot.active {
-  width: 30px; }
+  width: 70px; }
 
 /*2.0 STEP HEADER CSS */
 #googleMap {

@@ -1,6 +1,6 @@
-<header class=" {% if page.layout == 'post' %} top-transparent-nav-2 bg_dark {% else %} top-transparent-nav {% endif %}">
+<header class=" {% if page.layout == 'default' %} top-transparent-nav {% else %} top-transparent-nav-2 bg_dark {% endif %}">
     <div class="container">
-        <div class="row"> 
+        <div class="row">
             <div class="col-md-3 col-sm-3 col-xs-12">
                 <div class="logo">
                     <a href="{{site.url}}">
@@ -21,13 +21,13 @@
                     </div>
                     <div class="navbar-collapse collapse">
                         <ul class="nav navbar-nav">
-                            <li class="active"> <a class="smooth-scroll" href="#home">HOME</a></li>
-                            <li> <a class="smooth-scroll" href="{% if page.layout == 'post' %}{{site.url}}/#abt {% else %} #abt {% endif %}">ABOUT</a></li>
-                            <li> <a class="smooth-scroll" href="{% if page.layout == 'post' %}{{site.url}}/#port {% else %} #port {% endif %}">PROTFOLIO</a></li>
-                            <li> <a class="smooth-scroll" href="{% if page.layout == 'post' %}{{site.url}}/#tem {% else %} #tem {% endif %}">TEAM</a></li>
-                            <li> <a class="smooth-scroll" href="{% if page.layout == 'post' %}{{site.url}}/#price {% else %} #price {% endif %}">price</a></li>
-                            <li> <a class="smooth-scroll" href="{% if page.layout == 'post' %}{{site.url}}/#blg {% else %} #blg {% endif %}">blog</a></li>
-                            <li> <a class="smooth-scroll" href="{% if page.layout == 'post' %}{{site.url}}/#con {% else %} #con {% endif %}">CONTACT</a></li>
+                            <li class="{% if page.layout == 'post' %}active{% endif %}"> <a class="smooth-scroll" href="{% if page.layout == 'default' %}#home {% else %} {{site.url}}/#home {% endif %}">HOME</a></li>
+                            <li> <a class="smooth-scroll" href="{% if page.layout == 'default' %}#abt {% else %} {{site.url}}/#abt {% endif %}">ABOUT</a></li>
+                            <li class="{% if page.name == 'templates.html' %}active{% endif %}"> <a class="smooth-scroll" href="{{site.url}}/templates.html">TEMPLATES</a></li>
+                            <li> <a class="smooth-scroll" href="{% if page.layout == 'default' %}#price {% else %} {{site.url}}/#price {% endif %}">packages</a></li>
+                            <li> <a class="smooth-scroll" href="{% if page.layout == 'default' %}#blg {% else %} {{site.url}}/#blg {% endif %}">blog</a></li>
+                            <li> <a class="smooth-scroll" href="{% if page.layout == 'default' %}#tem {% else %} {{site.url}}/#tem {% endif %}">TEAM</a></li>
+                            <li> <a class="smooth-scroll" href="{% if page.layout == 'default' %}#con {% else %} {{site.url}}/#con {% endif %}">CONTACT</a></li>
                         </ul>
                     </div>
                 </div>
