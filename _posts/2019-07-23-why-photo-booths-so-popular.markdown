@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "6 reasons why you should have a photo booth at your next event"
+description: "Here are 6 reasons why you should have a photo booth at your next event."
 date: 2019-07-23
 tags: photobooths
 image: "/assets/images/blog/IMG_9353.JPG"
