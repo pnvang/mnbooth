@@ -12,7 +12,7 @@ Here are 6 reasons why you should have a photo booth at your next event:
 
 2 - **It creates a great keepsake** — for you and your guests. People will appreciate having a photo of themselves with their friends, their kids, or their date. But even if they don’t care about that, you will love having fun pictures of your guests.
 
-3 - **It’s suitable for all ages.** You don’t have to be young to enjoy a photo and your aunt might not want to dance to Rihanna! She might want to take this ‘photo opp’ with her niece and both of them have memory and print to share.
+3 - **It’s suitable for all ages.** You don’t have to be young to enjoy a photo and your aunt might not want to dance to David Yang! She might want to take this photo opportunity with her niece and both of them have memory and print to share.
 
 4 - **It’s a talking point.** Guests love to show others how their photos turn out and start conversations between people who may not know each other.
 
