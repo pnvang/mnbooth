@@ -8,7 +8,7 @@ image: "/assets/images/blog/IMG_9353.JPG"
 ---
 Here are 6 reasons why you should have a photo booth at your next event:
 
-1 - **Entertainment.** Having a few activities besides dancing at your reception is a good way to make sure all your guests have fun. Sometimes people just want a break from busting a move, and the photo booth provides a nice escape. It’s also a good place for people to gather and socialize. Your guests will love it. We always have a queue to get into our booth and when guests come out they are always smiling; so much so they come back again and again!
+1 - **Entertainment.** Having a few activities besides dancing at your reception is a good way to make sure all your guests have fun. Sometimes people just want a break from busting a move, and the photo booth provides a nice escape. It’s also a good place for people to gather and socialize. Your guests will love it. We always have a queue at our booth and when guests are done they are always smiling; so much so they come back again and again!
 
 2 - **It creates a great keepsake** — for you and your guests. People will appreciate having a photo of themselves with their friends, their kids, or their date. But even if they don’t care about that, you will love having fun pictures of your guests.
 
