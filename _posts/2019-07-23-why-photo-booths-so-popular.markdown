@@ -18,4 +18,4 @@ Here are 6 reasons why you should have a photo booth at your next event:
 
 5 - **Makes an awesome scrapbook.** Though you might not even realize we’re doing this, you will be glad your booth butler took the time to make sure everyone adds a snap to your guest book while leaving a message around the photographs. It’s a new twist on the traditional guest books and one that you will want to look at again and again.
 
-6 - **Share the love!** Not only will your guests receive a copy of the fun photographs on the night, but we will also upload all your ‘clean’ pictures to your very own Facebook album! This helps carry on the fun for weeks after the big day as friends and family tag, comment and copy their pictures.
+6 - **Share the love!** Not only will your guests receive a copy of the fun photographs at your event, but we will also upload all your ‘clean’ pictures to your very own Facebook album! This helps carry on the fun for weeks after the big day as friends and family tag, comment and copy their pictures.
