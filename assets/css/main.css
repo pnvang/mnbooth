@@ -1156,6 +1156,12 @@ a:focus {
     filter: alpha(opacity=80);
     z-index: -1;
 }
+.price-header.sb {
+    background: url("../images/sec-img/sb.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
 .price-header.bg2 {
     background: url("../images/sec-img/price-bg-2.jpg");
     background-repeat: no-repeat;
