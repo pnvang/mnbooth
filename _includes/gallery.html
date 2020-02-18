@@ -1,4 +1,4 @@
-<div class="photolove-gallery-area-2">
+<!-- <div class="photolove-gallery-area-2">
     <div class="gallery-active owl-carousel">
 
         {% for gal in site.data.gallery %}
@@ -12,5 +12,55 @@
             </div>
         {% endfor %}
 
+    </div>
+</div>
+ -->
+ 
+ 
+<div class="photo-love-portfolio section-pading" id="port">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="section-title text-center">
+                    <h2 class="section-heading">Gallery</h2>
+<!--                     <div class="filter-menu">
+                        <ul class="filter-list text-center">
+                            <li data-filter="*" class="active btn-mr waves-effect waves-teal  white">All</li>
+                            <li data-filter=".wedding" class="btn-mr waves-effect waves-teal  white">Wedding</li>
+                            <li data-filter=".graduation" class="btn-mr waves-effect waves-teal  white">Grad</li>
+                            <li data-filter=".birthday" class="btn-mr waves-effect waves-teal  white">Bday</li>
+                            <li data-filter=".baby_shower" class="btn-mr waves-effect waves-teal  white">Showers</li>
+                            <li data-filter=".party" class="btn-mr waves-effect waves-teal  white">Party</li>
+                            <li data-filter=".2x6" class="btn-mr waves-effect waves-teal  white">2x6</li>
+                            <li data-filter=".4x6" class="btn-mr waves-effect waves-teal  white">4x6</li>
+                            <li data-filter=".6x4" class="btn-mr waves-effect waves-teal  white">6x4</li>
+                        </ul>
+                    </div> -->
+                </div>
+            </div>
+            <!-- end section title -->
+        </div>
+        <!-- end row -->
+        <div class="row">
+            <div class="grid">
+
+                {% for gal in site.data.gallery %}
+
+                <div class="col-sm-4 col-xs-12 grid-item">
+                    <div class="single-port">
+                        <img src="{{site.baseurl}}/assets/images/gal/{{ gal.file_name }}" alt="">
+                        <div class="portfolio-view">
+                            <a class="img-poppu" href="{{site.baseurl}}/assets/images/gal/{{ gal.file_name }}">
+                                <i class="flaticon-add"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                {% endfor %}
+
+            </div>
+        </div>
+        <!-- end row -->
     </div>
 </div>
