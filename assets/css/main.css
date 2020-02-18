@@ -1133,7 +1133,7 @@ a:focus {
     box-shadow: 0px 5px 15px 0px rgba(1, 1, 1, 0.3);
 }
 .price-header {
-    background: url("../images/sec-img/price-bg.jpg");
+    background: url("../images/sec-img/bg-5.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
@@ -1157,19 +1157,55 @@ a:focus {
     z-index: -1;
 }
 .price-header.sb {
-    background: url("../images/sec-img/sb.jpg");
+    background: url("../images/sec-img/bg-9.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
 }
 .price-header.bg2 {
-    background: url("../images/sec-img/price-bg-2.jpg");
+    background: url("../images/sec-img/bg-2.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
 }
 .price-header.bg3 {
-    background: url("../images/sec-img/price-bg-3.jpg");
+    background: url("../images/sec-img/bg-3.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+.price-header.bg4 {
+    background: url("../images/sec-img/bg-4.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+.price-header.bg5 {
+    background: url("../images/sec-img/bg-5.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+.price-header.bg6 {
+    background: url("../images/sec-img/bg-6.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+.price-header.bg7 {
+    background: url("../images/sec-img/bg-7.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+.price-header.bg8 {
+    background: url("../images/sec-img/bg-8.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+.price-header.bg1 {
+    background: url("../images/sec-img/bg-1.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
